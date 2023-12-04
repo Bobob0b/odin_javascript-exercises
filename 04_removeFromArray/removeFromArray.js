@@ -2,9 +2,6 @@ const removeFromArray = function(arr, ...args) {
 
     let retArr = [];
 
-
-
-
     for (const element of arr) {
         if (!args.includes(element)){
             retArr.push(element);
